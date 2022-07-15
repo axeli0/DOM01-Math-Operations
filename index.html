@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>DOM01-Math Operators</title>
+</head>
+<body>
+    <div class="flex-container">
+        <input id="add-oper-left" class="input-box" type="number">
+        <p class="sign">+</p>
+        <input id="add-oper-right" class="input-box" type="number">
+        <button id="eval-add" class="evaluate" onclick="evaluateAdd()">=</button>
+        <p id="result-add" class="result">...</p>
+    </div>
+    <div class="flex-container">
+        <input id="sub-oper-left" class="input-box" type="number">
+        <p class="sign">-</p>
+        <input id="sub-oper-right" class="input-box" type="number">
+        <button id="eval-sub" class="evaluate" onclick="evaluateSub()">=</button>
+        <p id="result-sub" class="result">...</p>
+    </div>
+    <div class="flex-container">
+        <input id="mult-oper-left" class="input-box" type="number">
+        <p class="sign">*</p>
+        <input id="mult-oper-right" class="input-box" type="number">
+        <button id="eval-mult" class="evaluate" onclick="evaluateMult()">=</button>
+        <p id="result-mult" class="result">...</p>
+    </div>
+    <div class="flex-container">
+        <input id="div-oper-left" class="input-box" type="number">
+        <p class="sign">/</p>
+        <input id="div-oper-right" class="input-box" type="number">
+        <button id="eval-div" class="evaluate" onclick="evaluateDiv()">=</button>
+        <p id="result-div" class="result">...</p>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

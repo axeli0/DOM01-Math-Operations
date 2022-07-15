@@ -1,0 +1,54 @@
+.flex-container{
+    box-sizing: border-box;
+    display: flex;
+    margin: 40px 20px;
+    height: 40px;
+}
+
+.input-box{
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 3px;
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Removes arrow in input with type number */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.sign{
+    box-sizing: border-box;
+    margin: 5px 10px;
+    width: 18px;
+    height: 36px;
+    font-size: 30px;
+    align-self: center;
+}
+
+.evaluate{
+    box-sizing: border-box;
+    margin: 8px;
+    margin-left: 20px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+}
+
+.result{
+    box-sizing: border-box;
+    margin: 0 10px;
+    padding: 6px;
+    width: 80px;
+    font-size: 28px;
+}
+
+
